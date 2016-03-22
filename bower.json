@@ -1,0 +1,9 @@
+{
+  "name": "test-website",
+  "version": "0.0.1",
+  "dependencies": {
+    "angularjs-datepicker": "latest",
+    "angular-material": "^1.0.6"
+  },
+  "private": "true"
+}
