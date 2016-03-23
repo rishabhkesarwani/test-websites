@@ -5,7 +5,8 @@
     "angularjs-datepicker": "latest",
     "angular-material": "^1.0.6",
     "dragdealer": "https://github.com/skidding/dragdealer.git#^0.9.9",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "jquery-locationpicker-plugin": "https://github.com/Logicify/jquery-locationpicker-plugin.git#^0.1.12"
   },
   "private": "true"
 }
