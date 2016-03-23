@@ -3,15 +3,21 @@
 
 <head>
     <title>Test</title>
-    <link href="bower_components/angularjs-datepicker/dist/angular-datepicker.min.css" </head>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/dragdealer/src/dragdealer.css" />
+    <link rel="stylesheet" type="text/css" href="css/mydragdealer.css" />
+</head>
 
-    <body ng-app="datepicker">
-        <datepicker>
-            <input ng-model="date" type="text" />
-        </datepicker>
-        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-        <script type="text/javascript" src="bower_components/angularjs-datepicker/dist/angular-datepicker.min.js"></script>
-        <script type="text/javascript" src="js/datepicker.js"></script>
-    </body>
+<body>
+    <div id="just-a-slider" class="dragdealer">
+        <div class="handle red-bar" id="slotBox">
+            <span class="value"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/dragdealer/src/dragdealer.js"></script>
+    <script type="text/javascript" src="js/mydragdealer.js"></script>
+</body>
 
 </html>

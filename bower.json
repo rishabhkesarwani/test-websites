@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "dependencies": {
     "angularjs-datepicker": "latest",
-    "angular-material": "^1.0.6"
+    "angular-material": "^1.0.6",
+    "dragdealer": "https://github.com/skidding/dragdealer.git#^0.9.9",
+    "bootstrap": "^3.3.6"
   },
   "private": "true"
 }
