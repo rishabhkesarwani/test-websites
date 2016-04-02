@@ -3,24 +3,27 @@
 
 <head>
     <title>Test</title>
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/my.css" />
-</head>
 
-<body>
-    <div class="form-group">
-        <label for="us2-address">Adress: </label>
-        <input type="text" class="form-control" id="us2-address">
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body" id="somecomponent" style="width: 500px; height: 400px;"></div>
-        <div class="panel-footer">Hello World!</div>
-    </div>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL9p4yRpB9ItEwKk407GGndVR5It3HNbI"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/esvit/ng-table/v1.0.0/dist/ng-table.min.css">
+    <link rel="stylesheet" type="text/css" href="css/my.css">
+
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="bower_components/jquery-locationpicker-plugin/dist/locationpicker.jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script type="text/javascript" src="bower_components/angularfire/dist/angularfire.min.js"></script>
+    <script src="https://cdn.rawgit.com/esvit/ng-table/v1.0.0/dist/ng-table.js"></script>
     <script type="text/javascript" src="js/my.js"></script>
+</head>
+
+<body ng-app="angularFireApp">
+    <!--
+    <div ng-controller="fireCtrl"></div><div ng-controller="mainCtrl">
+</div>
+-->
+    <input type="text" id="nameInput" placeholder="Name">
+    <input type="text" id="messageInput" placeholder="Message">
 </body>
 
 </html>
